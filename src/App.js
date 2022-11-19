@@ -14,6 +14,9 @@ const App = () => {
         <Route path="/products" element={<Products />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <div className="footer">
+        <p>Copyright © 2022 Noliqe</p>
+      </div>
     </BrowserRouter>
   );
 }
