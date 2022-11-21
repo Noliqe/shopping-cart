@@ -13,14 +13,15 @@ import cap10 from "./caps/cap10-unsplash.jpg"
 const Products = () => {
     return (
       <div className="products">
-        <div className="img-header"></div>
+        <div className="img-header">
+        </div>
         <div className="product-container">
         <Items src={cap1} title={'Cotton twill cap'} discription={'Cotton Twill Baseball Cap True Black'}/>
         <Items src={cap2} title={'White cap'} discription={'White Cap "be your soul"'}/>
         <Items src={cap3} title={'Triangle cap'} discription={'Triangle Baseball Cap True Black'}/>
         <Items src={cap4} title={'Blue cap'} discription={'Classic Baseball Cap Light Blue'}/>
         <Items src={cap5} title={'PATAGONIA cap'} discription={'PATAGONIA Cap Since 1973'}/>
-        <Items src={cap6} title={'Yankee cap'} discription={'Yankee Baseball Cap Green'}/>
+        <Items src={cap6} title={'Respect cap'} discription={'Respect Baseball Cap Beige'}/>
         <Items src={cap7} title={'Nike cap'} discription={'Nike Baseball Cap White'}/>
         <Items src={cap8} title={'Triangle cap'} discription={'"UNDERGROUND SNAX" Cap Black'}/>
         <Items src={cap9} title={'Nike cap'} discription={'Nike Baseball Cap Yellow'}/>

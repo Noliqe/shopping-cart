@@ -4,17 +4,17 @@ import './Product.css';
 import Home from "./Components/Home";
 import Products from "./Components/Products";
 import Header from "./Components/Header";
-import Contact from "./Components/Contact";
+import About from "./Components/About";
 import GitHubLogo from "./Images/GitHub-Mark-32px.png"
 
 const App = () => {
   return (
     <BrowserRouter>
-        <Header />
+        <Header num={5}/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/About" element={<About />} />
       </Routes>
       <div className="footer">
         <p>Copyright © 2022 Noliqe</p>
