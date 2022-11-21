@@ -1,0 +1,14 @@
+.product-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    width: 250px;
+  }
+  
+  .product-container > img {
+    border: 2px solid salmon;
+    height: 150px;
+    width: 150px;
+  }
