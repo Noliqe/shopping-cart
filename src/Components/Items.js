@@ -1,11 +1,13 @@
-const Items = () => {
+const Items = (props) => {
     return (
       <div className="Items">
-        <div className="product-container">
-          <img src="" alt="props.shirt"></img>
-          <p>props.title</p>
-          <p>props.price</p>
+        <div className="item-container">
+        <img src={props.src} alt="props.shirt"></img>
+          <div className="item-sub-container">
+          <p className="item-title">{props.title}</p>
+          <p className="item-discription">{props.discription}</p>
           <button>Add to cart</button>
+          </div>
         </div>
       </div>
     );

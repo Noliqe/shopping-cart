@@ -1,14 +1,71 @@
+.products {
+  background-color: rgb(212, 212, 212);
+  width: 100vw;
+}
+
+.img-header {
+  background-image: url(./Images/ImageHeader-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
 .product-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid black;
-    width: 250px;
-  }
+  display: grid;
+  grid-template-columns: repeat( auto-fit, 350px);
+  justify-content: center;
+}
+
+.item-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px 5px grey;
+  margin: 10px;
+  background-color: white;
+}
   
-  .product-container > img {
-    border: 2px solid salmon;
-    height: 150px;
-    width: 150px;
-  }
+.item-container > img {
+  height: 500px;
+  width: 330px;
+}
+
+.item-title {
+  font-weight: 700;
+  border-top: 2px solid black;
+}
+
+.item-discription {
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.item-sub-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+  background-color: rgb(182, 182, 182);
+  padding-bottom: 20px;
+}
+
+.item-sub-container > button {
+  background-color: rgba(224, 223, 223, 0.774);
+  border-radius: 10px;
+  border: 1px solid rgba(224, 223, 223, 0.774);
+  padding: 10px;
+  width: 100px;
+  font-size: 16px;
+}
+
+.item-sub-container > button:hover {
+  background-color: rgba(185, 0, 0, 0.445);
+}
+
+.item-sub-container > button:active {
+  background-color: rgba(185, 0, 0, 0.26);
+}

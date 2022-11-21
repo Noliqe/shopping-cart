@@ -6,6 +6,9 @@
 html {
   margin: 0px;
   padding: 0px;
+  max-width: 100%;
+  overflow-x: hidden;
+
 }
 
 body {
@@ -157,7 +160,6 @@ a:active {
   height: 5vh;
   width: 100vw;
   background-color: var(--header-background-color);
-  position: absolute;
   bottom: 0;
   font-size: 20px;
   gap: 10px;
