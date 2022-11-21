@@ -1,3 +1,5 @@
+
+
 const Items = (props) => {
     return (
       <div className="Items">
@@ -6,7 +8,7 @@ const Items = (props) => {
           <div className="item-sub-container">
           <p className="item-title">{props.title}</p>
           <p className="item-discription">{props.discription}</p>
-          <button>Add to cart</button>
+          <button onClick={()=> {props.onClick(); props.addCart(props.title, props.src, props.num);}}>Add to cart</button>
           </div>
         </div>
       </div>
