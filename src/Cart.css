@@ -1,0 +1,125 @@
+.cart-content {
+    overflow: auto;
+    height: 50vh;
+}
+
+.cart-container {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0vw;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 2rem;
+    width: 30vw;
+    height: 100vh;
+    background-color: rgb(241, 240, 240);
+    transition: right 0.85s ease-in-out 0s;
+}
+
+.cart-shadow {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0vw;
+    width: 70vw;
+    height: 100vh;
+    background-color: rgba(68, 68, 68, 0.603);
+    transition: left 0.85s ease-in-out 0s; 
+}
+
+.cart-items {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart-items > img {
+    height: 250px;
+    width: 180px;
+    margin-top: 10px;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart-product {
+    font-weight: 700;
+}
+
+.cart-amount {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.btn-check-out {
+    padding: 10px 20px;
+    background-color: rgba(37, 185, 0, 0.774);
+    border: 1px solid rgba(37, 185, 0, 0.774);
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.btn-check-out:hover {
+    background-color: rgba(37, 185, 0, 0.575);
+}
+
+.btn-check-out:active {
+    background-color: rgba(37, 185, 0, 0.274);
+}
+
+.btn-close {
+    padding: 10px 20px; 
+    background-color: rgba(185, 0, 0, 0.774);
+    border: 1px solid rgba(185, 0, 0, 0.774);
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+.btn-close:hover {
+    background-color: rgba(185, 0, 0, 0.527);
+}
+
+.btn-close:active {
+    background-color: rgba(185, 0, 0, 0.274);
+}
+
+.btn-minus {
+    height: 25px;
+    width: 25px;
+    background-color: rgba(185, 0, 0, 0.774);
+    border: 1px solid rgba(185, 0, 0, 0.774);
+    border-radius: 15px;
+    font-size: 16px; 
+}
+
+.btn-minus:hover {
+    background-color: rgba(185, 0, 0, 0.527);
+}
+
+.btn-minus:active {
+    background-color: rgba(185, 0, 0, 0.274);
+}
+
+.btn-plus {
+    height: 25px;
+    width: 25px;
+    background-color: rgba(37, 185, 0, 0.774);
+    border: 1px solid rgba(37, 185, 0, 0.774);
+    border-radius: 15px;
+    font-size: 16px; 
+}
+
+.btn-plus:hover {
+    background-color: rgba(37, 185, 0, 0.575);
+}
+
+.btn-plus:active {
+    background-color: rgba(37, 185, 0, 0.274);
+}

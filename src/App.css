@@ -48,8 +48,8 @@ nav {
 }
 
 .cart > p {
-  margin: -2px;
-  margin-bottom: 25px;
+  margin: 0px;
+  margin-bottom: 20px;
   color: white;
   background-color: #febd00;
   border-radius: 50px;

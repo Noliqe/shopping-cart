@@ -8,7 +8,8 @@ const Items = (props) => {
           <div className="item-sub-container">
           <p className="item-title">{props.title}</p>
           <p className="item-discription">{props.discription}</p>
-          <button onClick={()=> {props.onClick(); props.addCart(props.title, props.src, props.num);}}>Add to cart</button>
+          <p className="item-price">€{props.price}</p>
+          <button onClick={()=> {props.onClick(); props.addCart(props.title, props.src, props.num, props.price);}}>Add to cart</button>
           </div>
         </div>
       </div>

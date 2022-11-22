@@ -2,14 +2,15 @@ import { Link } from 'react-router-dom';
 import cartIcon from './Icons/cart-48.png'
 
 const Header = (props) => {
-
-  const showCart = () => {
+  
+  const updateCartNumber = () => {
     if (props.num > 0) {
     return (
       <p>{props.num}</p>
     )
     }
   }
+
 
     return (
       <div className="header">
@@ -23,8 +24,8 @@ const Header = (props) => {
                 <Link to='/about'><li>About</li></Link>
             </ul>
             <div className='cart'>
-            <img src={cartIcon} alt='cart' className='img-cart'></img>
-            {showCart()}
+            <img src={cartIcon} alt='cart' className='img-cart' onClick={props.display}></img>
+            {updateCartNumber()}
             </div>
         </nav>
       </div>

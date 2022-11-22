@@ -9,7 +9,6 @@ import cap7 from "./caps/cap7-unsplash.jpg"
 import cap8 from "./caps/cap8-unsplash.jpg"
 import cap9 from "./caps/cap9-unsplash.jpg"
 import cap10 from "./caps/cap10-unsplash.jpg"
-import React, { useState, useEffect } from 'react';
 
 const Products = (props) => {
     return (
@@ -17,16 +16,16 @@ const Products = (props) => {
         <div className="img-header">
         </div>
         <div className="product-container">
-        <Items num={0} src={cap1} title={'Cotton twill cap'} discription={'Cotton Twill Baseball Cap True Black'} onClick={props.onClick} count={props.count} addCart={props.addCart}/>
-        <Items num={1} src={cap2} title={'White cap'} discription={'White Cap "be your soul"'} onClick={props.onClick} count={props.count} addCart={props.addCart}/>
-        <Items num={2} src={cap3} title={'Triangle cap'} discription={'Triangle Baseball Cap True Black'} onClick={props.onClick} count={props.count} addCart={props.addCart}/>
-        <Items num={3} src={cap4} title={'Blue cap'} discription={'Classic Baseball Cap Light Blue'} onClick={props.onClick} count={props.count} addCart={props.addCart}/>
-        <Items num={4} src={cap5} title={'PATAGONIA cap'} discription={'PATAGONIA Cap Since 1973'} onClick={props.onClick} count={props.count} addCart={props.addCart}/>
-        <Items num={5} src={cap6} title={'Respect cap'} discription={'Respect Baseball Cap Beige'} onClick={props.onClick} count={props.count} addCart={props.addCart}/>
-        <Items num={6} src={cap7} title={'Nike cap'} discription={'Nike Baseball Cap White'} onClick={props.onClick} count={props.count} addCart={props.addCart}/>
-        <Items num={7} src={cap8} title={'Triangle cap'} discription={'"UNDERGROUND SNAX" Cap Black'} onClick={props.onClick} count={props.count} addCart={props.addCart}/>
-        <Items num={8} src={cap9} title={'Nike cap'} discription={'Nike Baseball Cap Yellow'} onClick={props.onClick} count={props.count} addCart={props.addCart}/>
-        <Items num={9} src={cap10} title={'Just Culture cap'} discription={'"Just Culture" Cap Yellow/Gold'} onClick={props.onClick} count={props.count} addCart={props.addCart}/>
+        <Items num={0} src={cap1} title={'Cotton twill cap'} discription={'Cotton Twill Baseball Cap True Black'} price={13.99} onClick={props.onClick} count={props.count} addCart={props.addCart}/>
+        <Items num={1} src={cap2} title={'White cap'} discription={'White Cap "be your soul"'} price={14.99} onClick={props.onClick} count={props.count} addCart={props.addCart}/>
+        <Items num={2} src={cap3} title={'Triangle cap'} discription={'Triangle Baseball Cap True Black'} price={19.99} onClick={props.onClick} count={props.count} addCart={props.addCart}/>
+        <Items num={3} src={cap4} title={'Blue cap'} discription={'Classic Baseball Cap Light Blue'} price={17.99} onClick={props.onClick} count={props.count} addCart={props.addCart}/>
+        <Items num={4} src={cap5} title={'PATAGONIA cap'} discription={'PATAGONIA Cap Since 1973'} price={21.99} onClick={props.onClick} count={props.count} addCart={props.addCart}/>
+        <Items num={5} src={cap6} title={'Respect cap'} discription={'Respect Baseball Cap Beige'} price={12.99} onClick={props.onClick} count={props.count} addCart={props.addCart}/>
+        <Items num={6} src={cap7} title={'Nike cap'} discription={'Nike Baseball Cap White'} price={23.99} onClick={props.onClick} count={props.count} addCart={props.addCart}/>
+        <Items num={7} src={cap8} title={'Triangle cap'} discription={'"UNDERGROUND SNAX" Cap Black'} price={20.99} onClick={props.onClick} count={props.count} addCart={props.addCart}/>
+        <Items num={8} src={cap9} title={'Nike cap'} discription={'Nike Baseball Cap Yellow'} price={15.99} onClick={props.onClick} count={props.count} addCart={props.addCart}/>
+        <Items num={9} src={cap10} title={'Just Culture cap'} discription={'"Just Culture" Cap Yellow/Gold'} price={17.99} onClick={props.onClick} count={props.count} addCart={props.addCart}/>
         </div>
       </div>
     );
