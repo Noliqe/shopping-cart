@@ -6,7 +6,7 @@ const Header = (props) => {
   const updateCartNumber = () => {
     if (props.num > 0) {
     return (
-      <p>{props.num}</p>
+      <p className='cart-number'>{props.num}</p>
     )
     }
   }
